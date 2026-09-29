@@ -1,0 +1,17 @@
+# data and model artefacts (re-created by scripts/run_all.sh)
+data/
+checkpoints/
+logs/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+
+# os / editors
+.DS_Store
+.vscode/
+.idea/
