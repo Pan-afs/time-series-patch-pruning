@@ -1,0 +1,10 @@
+{
+  "device": "cpu",
+  "torch": "2.7.0",
+  "threads": 4,
+  "cpu": "Apple M1",
+  "platform": "macOS-12.5-arm64-arm-64bit",
+  "batch_windows": 32,
+  "series_per_batch": 672,
+  "repeats": 50
+}
