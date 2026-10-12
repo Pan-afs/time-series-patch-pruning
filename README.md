@@ -1,7 +1,5 @@
 # Patch Pruning for PatchTST
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pan-afs/-time-series-patch-pruning/blob/main/notebooks/colab_quickstart.ipynb)
-
 Inference-time token pruning for patch-based time-series Transformers: which patches can a trained
 PatchTST skip, and what does it cost in forecasting accuracy for the speed and memory it saves?
 
@@ -143,7 +141,7 @@ python scripts/make_figures.py
 ```
 
 On an Apple M1 CPU, one ETTh1 model trains in about 30 minutes and the Weather model in about
-75 minutes. A free Colab GPU is faster; see the notebook linked at the top.
+75 minutes. A free Colab GPU is faster; see [notebooks/colab_quickstart.ipynb](notebooks/colab_quickstart.ipynb).
 
 ```
 patchprune/
